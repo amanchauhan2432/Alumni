@@ -10,7 +10,7 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
 		<!--Image Carousel Flickity-->
-		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">		
 		<link rel="stylesheet" href="assets/css/flickity.css">
 
 	</head>
@@ -28,7 +28,7 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>GNDEC ALUMNI PORTAL</h1>
+								<h1 style="color: black;font-family: 'Times New Roman', Times, serif; font-size: 50px;">GNDEC ALUMNI PORTAL</h1>
 								<p> Welcome To Guru Nanak Dev Engineering College Alumni Portal </p>
 							</div>
 						</div>
@@ -109,26 +109,18 @@ The college campus is located on Ludhiana - Malerkotla state highway known as Gi
 								<h2 class="major">MEMBERS</h2>
 								<br><br>
 								<!--Image Carousel-->
-								<div class="carousel" data-flickity='{"groupCells": true}'>
-
+								<div class="carousel" data-flickity='{ "wrapAround": true }'>
+									
 									<div class="carousel-cell">
-										<img src="images/logo.png" alt="Alumni">
+										<img src="images/ronaldo.jpg" alt="">
 									</div>
 									<div class="carousel-cell">
-										<img src="" alt="Alumni">
+										<img src="logo.png" alt="">
 									</div>
-									<div class="carousel-cell">
-										<img src="" alt="Alumni">
-									</div>
-									<div class="carousel-cell">
-										<img src="" alt="Alumni">
-									</div>
-									<div class="carousel-cell">
-										<img src="" alt="Alumni">
-									</div>
-									<div class="carousel-cell">
-										<img src="" alt="Alumni">
-									</div>
+									<div class="carousel-cell"></div>
+									<div class="carousel-cell"></div>
+									<div class="carousel-cell"></div>
+									<div class="carousel-cell"></div>
 
 
 								</div>
@@ -188,6 +180,14 @@ The college campus is located on Ludhiana - Malerkotla state highway known as Gi
 			<script src="assets/js/main.js"></script>
 			<!--Image Carousel Flickity-->
 			<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-			<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+
+			<!-- <script>
+				$(".carousel").flickity({
+					cellAlign: 'left,
+					imagesLoaded: true,
+					contain: true
+				});
+			</script> -->
+
 	</body>
 </html>

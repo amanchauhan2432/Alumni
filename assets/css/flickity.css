@@ -4,27 +4,34 @@ body { font-family: sans-serif; }
 
 .carousel {
   background: #EEE;
+  /* border-radius: 5px; */
+  height: 200px;
 }
 
 .carousel-cell {
   width: 28%;
   height: 200px;
+  object-fit: contain;
   margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
+  /* background-image: url(images/ronaldo.jpg); */
+  /* border-radius: 0px; */
   counter-increment: carousel-cell;
 }
 
-.carousel-cell.is-selected {
+/* .carousel-cell.is-selected {
   background: #ED2;
-}
+} */
 
 /* cell number */
 .carousel-cell:before {
   display: block;
   text-align: center;
-  content: counter(carousel-cell);
+  content: '';
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+
+.flickity-page-dots .dot {
+  background-color: whitesmoke;
 }
