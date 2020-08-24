@@ -44,9 +44,41 @@ body { font-family: sans-serif; }
   height: 4px;
   width: 40px;
   margin: 0;
+<<<<<<< HEAD
   border-radius: 0;
   background: rgba(225, 101, 94, 1);
+=======
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+>>>>>>> eabf4f7ea88418d65589d3b34eb9849ce38c2888
 }
 
 .flickity-rtl .flickity-page-dots { direction: rtl; }
 
+<<<<<<< HEAD
+=======
+.flickity-page-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  background: rgba(225, 101, 94, 1);
+  border-radius: 3px;
+  opacity: 0.25;
+  cursor: pointer;
+  rotate: 85deg;
+}
+
+/* @media only screen and (max-width: 400px) {
+  .carousel-cell {
+    width: 100%;
+  }
+  .carousel-cell-image {
+    width: 100%;
+  }
+  
+} */
+>>>>>>> eabf4f7ea88418d65589d3b34eb9849ce38c2888
