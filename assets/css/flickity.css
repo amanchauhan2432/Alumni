@@ -46,7 +46,6 @@ body { font-family: sans-serif; }
   line-height: 1;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  border-top-left-radius: -4px;
 }
 
 .flickity-rtl .flickity-page-dots { direction: rtl; }
@@ -60,5 +59,15 @@ body { font-family: sans-serif; }
   border-radius: 3px;
   opacity: 0.25;
   cursor: pointer;
-  rotate: 45deg;
+  rotate: 85deg;
 }
+
+/* @media only screen and (max-width: 400px) {
+  .carousel-cell {
+    width: 100%;
+  }
+  .carousel-cell-image {
+    width: 100%;
+  }
+  
+} */
