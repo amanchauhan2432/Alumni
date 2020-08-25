@@ -1370,14 +1370,14 @@ input, select, textarea {
 					#header nav ul li a:hover {
 						background-color: black;
 						color: white;
-						font-weight: bolder;
+						font-weight: 900;
 						transition-duration: 400ms;
 					}
 
 					#header nav ul li a:active {
 						background-color: black;
 						color: white;
-						font-weight: bolder;
+						font-weight: 900;
 					}
 
 		#header nav.use-middle:after {
