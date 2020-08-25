@@ -42,7 +42,7 @@ body { font-family: sans-serif; }
 /* dots are lines */
 .flickity-page-dots .dot {
   height: 4px;
-  width: 40px;
+  width: 30px;
   margin: 0;
   border-radius: 0;
   background: rgba(225, 101, 94, 1);
